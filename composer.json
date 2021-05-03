@@ -1,0 +1,33 @@
+{
+    "name": "websovn/database",
+    "description": "Package database alias from laravel",
+    "keywords": [
+        "websovn",
+        "webso.vn"
+    ],
+    "homepage": "https://webso.vn",
+    "license": "MIT",
+    "authors": [{
+        "name": "WEBSO CO.,LTD",
+        "email": "info@webso.vn",
+        "homepage": "https://webso.vn",
+        "role": "Developer"
+    }],
+    "autoload": {
+        "psr-4": {
+            "Webso\\": "src/"
+        },
+        "classmap": ["src/"]
+    },
+    "require": {
+        "php": ">=7.3",
+        "ext-session": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "illuminate/database": "^8.0",
+        "illuminate/container": "^8.0",
+        "illuminate/events": "^8.40",
+        "symfony/error-handler": "^5.2",
+        "illuminate/support": "^8.40"
+    }
+}
